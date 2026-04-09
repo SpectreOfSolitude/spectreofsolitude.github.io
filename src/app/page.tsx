@@ -5,18 +5,18 @@ import { useEffect, useRef } from "react";
 // ─── Data ───────────────────────────────────────────────────────────────────
 
 const MONTHS = [
-  { num: "I",    name: "Emberi",    days: 28 },
-  { num: "II",   name: "Florenti",  days: 28 },
-  { num: "III",  name: "Rufat",     days: 28 },
-  { num: "IV",   name: "Virel",     days: 28 },
-  { num: "V",    name: "Auren",     days: 28 },
+  { num: "I",    name: "Emberi",    days: 28, note: "" },
+  { num: "II",   name: "Florenti",  days: 28, note: "" },
+  { num: "III",  name: "Rufat",     days: 28, note: "" },
+  { num: "IV",   name: "Virel",     days: 28, note: "" },
+  { num: "V",    name: "Auren",     days: 28, note: "" },
   { num: "VI",   name: "Aka",       days: 28, note: "Arash" },
   { num: "VII",  name: "Biya",      days: 28, note: "Bia" },
-  { num: "VIII", name: "Vorsthal",  days: 28 },
-  { num: "IX",   name: "Serathal",  days: 28 },
-  { num: "X",    name: "Caliven",   days: 28 },
-  { num: "XI",   name: "Noctiven",  days: 28 },
-  { num: "XII",  name: "Tristiven", days: 28 },
+  { num: "VIII", name: "Vorsthal",  days: 28, note: "" },
+  { num: "IX",   name: "Serathal",  days: 28, note: "" },
+  { num: "X",    name: "Caliven",   days: 28, note: "" },
+  { num: "XI",   name: "Noctiven",  days: 28, note: "" },
+  { num: "XII",  name: "Tristiven", days: 28, note: "" },
   { num: "XIII", name: "Finiven",   days: 29, note: "Intercalary" },
 ] as const;
 
